@@ -14,7 +14,7 @@ import org.springframework.boot.SpringApplication;
 public class DemoApplication implements CommandLineRunner{
     
     public static void main(String[] args){
-        SpringApplication.run(DemoApplication.class);
+        SpringApplication.run(DemoApplication.class, args);
     }
     
     @Override
@@ -48,3 +48,4 @@ public class DemoApplication implements CommandLineRunner{
     }
     
 }
+
